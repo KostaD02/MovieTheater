@@ -112,7 +112,7 @@ header .bottom .right ul li a:hover {
 main .banner-area {
   height: 1100px;
   width: 100%;
-  background: url(https://static.wixstatic.com/media/84770f_35c0b8b2d8bc4bbe9ae56d0d331f6533~mv2.jpg/v1/fill/w_1263,h_1100,al_c,q_85,usm_0.66_1.00_0.01/84770f_35c0b8b2d8bc4bbe9ae56d0d331f6533~mv2.webp);
+  background: url("https://static.wixstatic.com/media/84770f_35c0b8b2d8bc4bbe9ae56d0d331f6533~mv2.jpg/v1/fill/w_1263,h_1100,al_c,q_85,usm_0.66_1.00_0.01/84770f_35c0b8b2d8bc4bbe9ae56d0d331f6533~mv2.webp");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,10 +324,349 @@ main .cards .tracks .cards-track .trailer span {
   font-family: "Barlow", sans-serif;
 }
 main .last-section {
-  height: 1200px;
+  height: 2700px;
   background-color: #0e0a48;
+}
+main .last-section .head-text {
+  font-size: 28px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+main .last-section .makeCenter {
+  margin: 50px auto;
+  width: 90%;
+}
+main .last-section .makeCenter .flex-boxes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+main .last-section .works-card {
+  height: 500px;
+  width: 25%;
+}
+
+main .last-section .works-card .top {
+  height: 150px;
+  width: 100%;
+}
+main .last-section .works-card .middle {
+  height: 200px;
+  width: 100%;
+}
+main .last-section .works-card .bottom {
+  height: 100px;
+  width: 100%;
+}
+main .last-section .works-card .headerP {
+  font-size: 40px;
+  color: #ff66f5;
+  font-family: "Suez One", serif;
+  text-align: center;
+}
+main .last-section .works-card .container {
+  width: 120px;
+  height: 1px;
+  background-color: #ff66f5;
+  position: relative;
+}
+main .last-section .works-card .circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  left: 53px;
+}
+main .last-section .works-card .purple .circle {
+  background: #ff66f5;
+  border-color: #ff66f5;
+}
+main .last-section .works-card .middle {
+  text-align: center;
+}
+main .last-section .works-card .bottom h2 {
+  font-size: 26px;
+  color: white;
+  font-family: "Suez One", serif;
+  text-align: center;
+}
+main .last-section .works-card .bottom p {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+}
+main .last-section .ticket-prices .ticket {
+  width: 900px;
+  height: 480px;
+  margin: auto;
+  background-color: #ff66f5;
+}
+main .last-section .ticket-prices .ticket svg {
+  fill: #ff66f5;
+  width: 100%;
+  height: 76px;
+  margin-top: 55px;
+}
+main .last-section .ticket-prices .ticket .text .headertext {
+  font-size: 28px;
+  color: #0e0a48;
+  font-family: "Barlow", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 500;
+}
+.myline {
+  border-top: 2px dashed black;
+}
+.myline2 {
+  border-top: 2px dashed white;
+}
+main .last-section .ticket-prices .ticket .text .texts {
+  width: 265px;
+  height: 100px;
+}
+main .last-section .ticket-prices .ticket .text .texts h3 {
+  text-align: center;
+  font-size: 26px;
+  font-family: "Suez One", serif;
+}
+main .last-section .ticket-prices .ticket .text .texts h2 {
+  padding-top: 50px;
+  font-size: 90px;
+  text-align: center;
+  font-family: "Suez One", serif;
+}
+main .last-section .iceCream {
+  height: 840px;
+  padding-top: 1px;
+}
+main .last-section .iceCream .makeCenter {
+  padding-top: 0px;
+  background-color: #3843cd;
+  position: relative;
+}
+main .last-section .iceCream .makeCenter aside {
+  width: 33%;
+  height: 600px;
+  display: inline-block;
+}
+main .last-section .iceCream .makeCenter .cardIcecream h2 {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 21px;
+  color: white;
+  padding-bottom: 20px;
+}
+main .last-section .iceCream .makeCenter .cardIcecream .center-text {
+  margin: auto;
+  width: 60%;
+}
+main .last-section .iceCream .makeCenter .cardIcecream .center-text h1 {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Suez One", serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+main .last-section .iceCream .makeCenter .middle img {
+  position: absolute;
+  top: 60px;
+  z-index: 10;
+}
+main .last-section .iceCream .makeCenter .cardIcecream .center-text button {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 165px;
+  height: 55px;
+  margin-left: 30px;
+  margin-top: 10px;
+  color: white;
+}
+main
+  .last-section
+  .iceCream
+  .makeCenter
+  .cardIcecream
+  .center-text
+  button:hover {
+  background-color: white;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  color: black;
+}
+main .last-section .subscribe {
+  width: 90%;
+  margin: 150px auto;
+}
+main .last-section .subscribe h2 {
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+main .last-section .subscribe p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+main .last-section .subscribe form {
+  margin: auto;
+  width: 900px;
+}
+main .last-section .subscribe form input {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ff66f5;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+main .last-section .subscribe form input:hover {
+  border: 2px solid white;
+}
+main .last-section .subscribe form input::placeholder {
+  font-size: 30px;
+  color: #ff66f5;
+  text-align: center;
+  font-family: "Suez One", serif;
+}
+main .last-section .subscribe form button {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ff66f5;
+  background-color: #ff66f5;
+  font-family: "Suez One", serif;
+  font-size: 30px;
+  color: black;
+  font-weight: 300;
+}
+main .last-section .subscribe form button:hover {
+  border: 2px solid white;
+  background-color: white;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
 }
 footer {
   background-color: #3843cd;
-  height: 400px;
+  height: 330px;
+}
+footer .goingCenter {
+  margin: auto;
+  padding-top: 40px;
+  width: 90%;
+}
+footer .goingCenter .top {
+  width: 100%;
+  height: 80%;
+}
+footer .goingCenter .bottom {
+  width: 100%;
+  height: 20%;
+}
+footer .goingCenter .top .first {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+}
+footer .goingCenter .top .second {
+  width: 15%;
+  height: 150px;
+  display: inline-block;
+}
+footer .goingCenter .top .third {
+  width: 30%;
+  height: 150px;
+  display: inline-block;
+}
+footer .goingCenter .top .forth {
+  width: 20%;
+  height: 150px;
+  display: inline-block;
+}
+footer .goingCenter .top .first h2 a {
+  font-size: 25px;
+  color: white;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+footer .goingCenter .top .first p {
+  font-size: 15px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+footer .goingCenter .top .second h2 {
+  font-size: 25px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+footer .goingCenter .top .second ul {
+  list-style: none;
+  padding: 0px;
+}
+footer .goingCenter .top .second ul li a {
+  font-size: 15px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+}
+footer .goingCenter .top .third h2 {
+  font-size: 25px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+footer .goingCenter .top .third p {
+  font-size: 15px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+footer .goingCenter .top .forth .last-top {
+  height: 80%;
+  width: 100%;
+  display: inline-block;
+}
+footer .goingCenter .top .forth .last-top button {
+  width: 145px;
+  height: 55px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+footer .goingCenter .top .forth .last-top button a {
+  text-decoration: none;
+  color: white;
+}
+footer .goingCenter .top .forth .last-top button a:hover {
+  color: black;
+}
+footer .goingCenter .top .forth .last-top button:hover {
+  background-color: white;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  color: black;
+}
+footer .goingCenter .top .forth .last-bottom ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+footer .goingCenter .top .forth .last-bottom ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .goingCenter .top .forth .last-bottom ul li a i {
+  font-size: 15px;
+}
+footer .goingCenter .bottom p {
+  font-size: 15px;
+  font-family: "Barlow", sans-serif;
+  color: white;
 }
