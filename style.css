@@ -1,6 +1,3 @@
-/* font-family: 'Pacifico', cursive; 
-font-family: 'Barlow', sans-serif;
-font-family: 'Suez One', serif; */
 html {
   scroll-behavior: smooth;
 }
@@ -674,16 +671,16 @@ footer .goingCenter .bottom p {
   color: rgba(255, 255, 255, 0.342);
   text-align: center;
 }
-main .aboutBannerArea {
+main .BannerArea {
   height: 370px;
   background-color: #252989;
 }
-main .aboutBannerArea .makeCenter {
+main .BannerArea .makeCenter {
   margin: auto;
   width: 90%;
   padding-top: 200px;
 }
-main .aboutBannerArea .makeCenter h1 {
+main .BannerArea .makeCenter h1 {
   text-align: center;
   color: white;
   font-size: 40px;
@@ -757,4 +754,134 @@ main .mainAbout .list .list2 ul li {
   color: white;
   font-family: "Barlow", sans-serif;
   font-size: 18px;
+}
+main .musicMain {
+  width: 100%;
+  height: 1600px;
+  background-color: #0e0a48;
+}
+main .musicMain .makeCenter {
+  width: 90%;
+  margin: auto;
+  padding-top: 80px;
+}
+main .musicMain .makeCenter .list1 {
+  border: 1px solid #ff66f5;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+main .musicMain .makeCenter .list1 .left {
+  width: 50%;
+  height: 290px;
+}
+main .musicMain .makeCenter .list1 .right {
+  width: 50%;
+  border-left: 1px solid #ff66f5;
+  height: 290px;
+}
+main .musicMain .makeCenter .list1 .makeCenters {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-left: 40px;
+}
+main .musicMain .makeCenter .list1 .makeCenters h2 {
+  font-size: 28px;
+  color: #ff66f5;
+  font-family: "Barlow", sans-serif;
+  padding-bottom: 20px;
+}
+main .musicMain .makeCenter .list1 .left .makeCenters span {
+  font-size: 40px;
+  color: white;
+  border: 1px solid #ff66f5;
+  width: 187px;
+  height: 84px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Suez One", serif;
+}
+main .musicMain .makeCenter .list1 .right .makeCenters p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: "Barlow", sans-serif;
+}
+main .musicMain .makeCenter .list2 {
+  margin-top: 80px;
+  height: 1042px;
+  border: 1px solid #ff66f5;
+  padding: 1px 30px;
+}
+main .musicMain .makeCenter .list2 .list-card {
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+  border-bottom: 1px solid #ff66f5;
+}
+main .musicMain .makeCenter .list2 .list-card .time {
+  height: 100%;
+  width: 110px;
+  display: flex;
+}
+main .musicMain .makeCenter .list2 .list-card .time .date {
+  display: flex;
+  flex-direction: column;
+}
+main .musicMain .makeCenter .list2 .list-card .time span {
+  font-size: 40px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+}
+main .musicMain .makeCenter .list2 .list-card .time .date p {
+  font-size: 14px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  margin: 0px;
+  font-weight: 200;
+  margin-left: 10px;
+}
+main .musicMain .makeCenter .list2 .list-card .time .date .toppeer {
+  margin-top: 10px;
+  color: grey;
+}
+main .musicMain .makeCenter .list2 .list-card .name {
+  display: inline-block;
+}
+
+main .musicMain .makeCenter .list2 .list-card .time-day {
+  display: inline-block;
+}
+main .musicMain .makeCenter .list2 .list-card .name h2 {
+  font-size: 21px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  display: inline-block;
+  font-weight: 200;
+}
+main .musicMain .makeCenter .list2 .list-card .name p {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  display: inline-block;
+  font-weight: 200;
+}
+main .musicMain .makeCenter .list2 .list-card .buyButton {
+  float: right;
+  margin-top: 17px;
+}
+main .musicMain .makeCenter .list2 .list-card .buyButton button {
+  width: 121px;
+  height: 42px;
+  border: none;
+  background-color: #ff66f5;
+}
+main .musicMain .makeCenter .list2 .list-card .buyButton button:hover {
+  background-color: #ff66f562;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
 }
