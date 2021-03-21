@@ -8,6 +8,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.active {
+  color: #ff66f5 !important;
+}
 header {
   width: 100%;
   margin-top: 40px;
@@ -671,10 +674,87 @@ footer .goingCenter .bottom p {
   color: rgba(255, 255, 255, 0.342);
   text-align: center;
 }
-footer,
-.goingCenter .bottom p:hover {
+main .aboutBannerArea {
+  height: 370px;
+  background-color: #252989;
+}
+main .aboutBannerArea .makeCenter {
+  margin: auto;
+  width: 90%;
+  padding-top: 200px;
+}
+main .aboutBannerArea .makeCenter h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Suez One", serif;
+}
+main .mainAbout {
+  background-color: #0e0a48;
+  height: 1500px;
+}
+main .mainAbout .makeCenter {
+  width: 90%;
+  margin: auto;
+}
+main .mainAbout .text .first {
+  padding-top: 50px;
+}
+main .mainAbout .text .second {
+  padding-top: 25px;
+}
+main .mainAbout .text p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+main .mainAbout .photo {
+  text-align: center;
+  margin-top: 50px;
+}
+main .mainAbout .list {
+  margin: 80px auto;
+  width: 90%;
+}
+main .mainAbout .list .list1 {
+  padding: 100px 60px 60px 60px;
+  border-top: 1px solid #ff66f5;
+  border-left: 1px solid #ff66f5;
+  border-bottom: 1px solid #ff66f5;
+  display: inline-block;
+  width: 565px;
+  height: 450px;
+}
+main .mainAbout .list .list2 {
+  padding: 100px 60px 60px 60px;
+  border: 1px solid #ff66f5;
+  float: right;
+  width: calc(100% - 565px);
+  height: 450px;
+}
+main .mainAbout .list .list1 h2 {
+  font-size: 28px;
   color: #ff66f5;
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: 1s;
-  font-weight: bold;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 20px;
+}
+main .mainAbout .list .list1 p {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+main .mainAbout .list .list2 h2 {
+  font-size: 28px;
+  color: #ff66f5;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 50px;
+}
+main .mainAbout .list .list2 ul {
+  padding-left: 25px;
+}
+main .mainAbout .list .list2 ul li {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
 }
