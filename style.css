@@ -668,5 +668,13 @@ footer .goingCenter .top .forth .last-bottom ul li a i {
 footer .goingCenter .bottom p {
   font-size: 15px;
   font-family: "Barlow", sans-serif;
-  color: white;
+  color: rgba(255, 255, 255, 0.342);
+  text-align: center;
+}
+footer,
+.goingCenter .bottom p:hover {
+  color: #ff66f5;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  font-weight: bold;
 }
