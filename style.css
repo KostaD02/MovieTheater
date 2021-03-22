@@ -563,11 +563,10 @@ main .last-section .subscribe form button:hover {
 }
 footer {
   background-color: #3843cd;
-  height: 330px;
 }
 footer .goingCenter {
   margin: auto;
-  padding-top: 40px;
+  padding-top: 20px;
   width: 90%;
 }
 footer .goingCenter .top {
@@ -613,6 +612,8 @@ footer .goingCenter .top .second h2 {
   font-size: 25px;
   color: white;
   font-family: "Barlow", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 5px;
 }
 footer .goingCenter .top .second ul {
   list-style: none;
@@ -625,8 +626,9 @@ footer .goingCenter .top .second ul li a {
   text-decoration: none;
 }
 footer .goingCenter .top .third h2 {
-  font-size: 25px;
+  font-size: 31px;
   color: white;
+  font-weight: 400;
   font-family: "Barlow", sans-serif;
 }
 footer .goingCenter .top .third p {
