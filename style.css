@@ -885,3 +885,51 @@ main .musicMain .makeCenter .list2 .list-card .buyButton button:hover {
   -webkit-transition: all 0.8s ease-in-out;
   transition: 1s;
 }
+main .snackMain {
+  background-color: #0e0a48;
+}
+main .snackMain .makeCenter {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  position: relative;
+  height: 1050px;
+}
+main .snackMain .makeCenter p {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+}
+main .snackMain .makeCenter .lists {
+  border: 1px solid #ff66f5;
+  margin-top: 60px;
+  display: flex;
+}
+main .snackMain .makeCenter .lists h2 {
+  font-size: 28px;
+  color: #ff66f5;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 20px;
+}
+main .snackMain .makeCenter .lists ul {
+  list-style: none;
+  padding: 0px;
+}
+main .snackMain .makeCenter .lists ul li span {
+  color: white;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+}
+main .snackMain .makeCenter .lists article {
+  width: 33%;
+  height: 300px;
+  border-left: 1px solid #ff66f5;
+  padding: 60px 40px;
+}
+main .snackMain .makeCenter .photoImg {
+  position: absolute;
+  bottom: 0px;
+  left: calc(100% - 70%);
+  z-index: 10000;
+}
