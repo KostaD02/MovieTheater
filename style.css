@@ -89,6 +89,11 @@ header .bottom .left ul li a {
   font-weight: 200;
   margin-right: 10px;
 }
+header .bottom .left ul li a:hover {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  color: #ff66f5;
+}
 header .bottom .right ul li {
   display: inline-block;
 }
@@ -1097,7 +1102,6 @@ main .login-page .makeCenter .cancel-button a {
 }
 main .login-page .makeCenter .forms {
   width: 305px;
-  height: 640px;
   margin: auto;
   padding-top: 200px;
   text-align: center;
@@ -1153,12 +1157,13 @@ main .login-page .makeCenter .forms .social .google {
 }
 main .login-page .makeCenter .forms .lineWithWord {
   overflow: hidden;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   margin-top: 25px;
   text-align: center;
   font-size: 16px;
   font-family: "Barlow", sans-serif;
   color: white;
+  font-weight: 300;
 }
 main .login-page .makeCenter .forms .lineWithWord::before,
 .lineWithWord::after {
@@ -1178,7 +1183,7 @@ main .login-page .makeCenter .forms .lineWithWord::after {
   left: 0.5em;
   margin-right: -50%;
 }
-main .login-page .makeCenter .forms button {
+main .login-page .makeCenter .forms .confirmRegister {
   width: 100%;
   height: 48px;
   background-color: transparent;
@@ -1186,7 +1191,7 @@ main .login-page .makeCenter .forms button {
   margin-bottom: 40px;
   color: white;
 }
-main .login-page .makeCenter .forms button:hover {
+main .login-page .makeCenter .forms .confirmRegister:hover {
   border: 1px solid white;
 }
 main .login-page .makeCenter .forms .checkBox {
@@ -1201,4 +1206,97 @@ main .login-page .makeCenter .forms .checkBox a {
   padding-left: 5px;
   color: #ff66f5;
   text-decoration: underline;
+}
+main .login-page .makeCenter .forms form div label {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  color: #8d93de;
+  text-align: start;
+}
+main .login-page .makeCenter .forms form div input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #23268a;
+  height: 30px;
+  margin-bottom: 20px;
+}
+main .login-page .makeCenter .forms form div input:enabled {
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+}
+main .login-page .makeCenter .forms form div input:hover {
+  border-bottom: 1px solid #ff66f5;
+}
+main .login-page .makeCenter .forms form .signInregister {
+  width: 100%;
+  height: 48px;
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow", sans-serif;
+  background-color: #ff66f5;
+  border: none;
+}
+main .login-page .makeCenter .forms form .signInregister:hover {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  color: black;
+}
+main .login-page .makeCenter .forms .icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+main .login-page .makeCenter .forms .icons a:hover {
+  color: #ff66f5;
+}
+main .login-page .makeCenter .forms form .forgotPassword {
+  color: white;
+  font-size: 18px;
+  font-family: "Barlow", sans-serif;
+  float: left;
+  margin-bottom: 10px;
+}
+main .login-page .makeCenter .forms form .forgotPassword:hover {
+  border-bottom: 1px solid #ff66f5;
+  text-decoration: none;
+}
+main .login-page .makeCenter .forms .emailss label {
+  display: inline-block;
+  width: 100%;
+  font-size: 18px;
+  color: #8d93de;
+  text-align: start;
+}
+main .login-page .makeCenter .forms .emailss input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #23268a;
+  height: 30px;
+  margin-bottom: 20px;
+}
+main .login-page .makeCenter .forms .emailss input:hover {
+  border-bottom: 1px solid #ff66f5;
+}
+main .login-page .makeCenter .forms form .passwordButtonCreate {
+  width: 100%;
+  height: 48px;
+  background-color: #ff66f5;
+  border: none;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+main .login-page .makeCenter .forms form .passwordButtonCreate:hover {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+  color: black;
+}
+main .login-page .makeCenter .forms .renewPassword {
+  font-size: 30px;
+  color: white;
+  font-family: "Barlow", sans-serif;
 }

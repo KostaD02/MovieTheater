@@ -39,22 +39,22 @@
                 <div class="forms">
                     <h2>Sing Up</h2>
                     <p class="loginAlready">Already a member? <a href="./login.html">Log In</a></p>
-                    <div class="social">
-                        <a href="https://www.facebook.com/" class="facebook">
-                            <span>
-                                <i class="fab fa-facebook"></i>
-                            </span>
-                            <p>Sing up with Facebook</p>
-                        </a>
-                        <a href="https://www.google.com" class="google">
-                            <span>
-                                <i class="fab fa-google"></i>
-                            </span>
-                            <p>Sing up with Google</p>
-                        </a>
-                    </div>
-                    <h2 class="lineWithWord">or</h2> <br>
-                    <a href="./register-email.html"><button class="confirmRegister">Sing up with email</button></a>
+                    <form action="#" method="post">
+                        <div class="emails">
+                            <label for="emailSingIn">Email</label>
+                            <input type="text" form="emailSingIn">
+                        </div>
+                        <div class="passwords">
+                            <label for="passwordSignIn">Password</label>
+                            <input type="password" form="passwordSignIn">
+                        </div>
+                        <button class="signInregister">Sign Up</button>
+                    </form>
+                    <h2 class="lineWithWord">or sign up with</h2> <br>
+                    <p class="icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.google.com"><i class="fab fa-google"></i></a>
+                    </p>
                     <p class="checkBox">
                         <input type="checkbox"> Join this site's community. <a href="#">Read more</a>
                     </p>
