@@ -563,6 +563,7 @@ main .last-section .subscribe form button:hover {
 }
 footer {
   background-color: #3843cd;
+  height: 300px;
 }
 footer .goingCenter {
   margin: auto;
