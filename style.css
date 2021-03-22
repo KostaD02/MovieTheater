@@ -1079,3 +1079,126 @@ main .contactMain .contactMap iframe {
   height: 600px;
   border: none;
 }
+main .login-page {
+  height: 1000px;
+  width: 100%;
+  background-color: #0e0a48;
+}
+main .login-page .makeCenter {
+  width: 90%;
+  margin: auto;
+}
+main .login-page .makeCenter .cancel-button a {
+  float: right;
+  font-size: 50px;
+  color: #ff66f5;
+  text-decoration: none;
+  padding-top: 40px;
+}
+main .login-page .makeCenter .forms {
+  width: 305px;
+  height: 640px;
+  margin: auto;
+  padding-top: 200px;
+  text-align: center;
+}
+main .login-page .makeCenter .forms h2 {
+  font-size: 48px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+}
+main .login-page .makeCenter .forms .loginAlready {
+  font-size: 18px;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 40px;
+}
+main .login-page .makeCenter .forms .loginAlready a {
+  color: #ff66f5;
+  text-decoration: none;
+}
+main .login-page .makeCenter .forms .social a {
+  width: 300px;
+  height: 48px;
+  color: white;
+  font-size: 14px;
+  font-family: "Barlow", sans-serif;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+main .login-page .makeCenter .forms .social a:hover {
+  background-color: rgba(255, 255, 255, 0.151);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+main .login-page .makeCenter .forms .social a span {
+  float: left;
+  font-size: 30px !important;
+  margin-left: 10px;
+}
+main .login-page .makeCenter .forms .social a p {
+  display: inline-block;
+  text-align: center;
+  width: calc(100% - 60px);
+  margin-top: 10px;
+}
+main .login-page .makeCenter .forms .social .facebook {
+  background-color: #3b5998;
+}
+main .login-page .makeCenter .forms .social .google {
+  background-color: #4285f4;
+}
+main .login-page .makeCenter .forms .lineWithWord {
+  overflow: hidden;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  color: white;
+}
+main .login-page .makeCenter .forms .lineWithWord::before,
+.lineWithWord::after {
+  background-color: #23268a;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+main .login-page .makeCenter .forms .lineWithWord::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+main .login-page .makeCenter .forms .lineWithWord::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+main .login-page .makeCenter .forms button {
+  width: 100%;
+  height: 48px;
+  background-color: transparent;
+  border: 1px solid #23268a;
+  margin-bottom: 40px;
+  color: white;
+}
+main .login-page .makeCenter .forms button:hover {
+  border: 1px solid white;
+}
+main .login-page .makeCenter .forms .checkBox {
+  color: white;
+  font-size: 15px;
+  font-family: "Barlow", sans-serif;
+}
+main .login-page .makeCenter .forms .checkBox input {
+  margin-right: 5px;
+}
+main .login-page .makeCenter .forms .checkBox a {
+  padding-left: 5px;
+  color: #ff66f5;
+  text-decoration: underline;
+}
