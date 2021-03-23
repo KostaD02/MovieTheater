@@ -1,0 +1,40 @@
+@media screen and (max-width: 400px) {
+  /*Main fix for out of box start*/
+  main .last-section .ticket-prices .ticket {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket .flex-boxes h2 {
+    font-size: 40px !important;
+  }
+  main .last-section .subscribe form {
+    width: 100%;
+  }
+  main .last-section .works-card aside img {
+    width: 100px;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    width: 200px;
+  }
+  main .last-section .works-card .container {
+    width: 100px;
+  }
+  main .mainAbout .photo img {
+    width: 100%;
+  }
+  footer .goingCenter .top .forth .last-top a button {
+    width: 100%;
+  }
+  main .mainAbout .list .list1 {
+    width: 100%;
+  }
+  main .snackMain .makeCenter .photoImg img {
+    width: 100%;
+  }
+  main .contactMain .makeCenter .list .left form div {
+    width: 100%;
+  }
+  main .contactMain .makeCenter .list .right span {
+    margin-left: 0px;
+  }
+  /*Main fix for out of box end*/
+}

@@ -1063,6 +1063,10 @@ main .contactMain .makeCenter .list .left form div input:enabled {
 main .contactMain .makeCenter .list .left form div input:hover {
   background-color: rgba(255, 255, 255, 0.096);
 }
+main .contactMain .makeCenter .list .left form div input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
 main .contactMain .makeCenter .list .right span {
   font-size: 18px;
   color: white;
