@@ -37,4 +37,188 @@
     margin-left: 0px;
   }
   /*Main fix for out of box end*/
+  header .top .left {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  header .top .right {
+    width: 100%;
+    height: 50px;
+  }
+  header .top .right ul {
+    padding: 0px;
+  }
+  header .top .right ul li a {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  header .bottom .left {
+    width: 60%;
+    float: left;
+  }
+  header .bottom .right {
+    width: 40%;
+    float: right;
+  }
+  main .banner-area {
+    height: 700px;
+  }
+  main .banner-area .text-area {
+    top: 220px;
+  }
+  main .banner-area .text-area h1 {
+    font-size: 40px;
+  }
+  main .banner-area .text-area p {
+    font-size: 20px;
+  }
+  main .cards {
+    height: 1600px;
+  }
+  main .cards .card-area h2 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  main .cards .card-area .flex-boxs {
+    display: inline-block;
+    width: 100%;
+  }
+  main .cards .card-area .card {
+    width: 49%;
+    display: inline-block;
+    height: 300px;
+  }
+  main .cards .card-area .card .bottom h3 {
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  main .cards .card-area .card .bottom p {
+    font-size: 15px;
+  }
+  main .cards .card-area .card #goingDown img {
+    margin-top: 0px;
+  }
+  main .cards .card-area .card #goingDown h3 {
+    margin-top: 18px;
+    font-size: 21px;
+  }
+  main .cards .card-area .card #goingDown p {
+    margin-top: 12px;
+  }
+  main .cards .center-button {
+    margin-top: 30px;
+  }
+  main .cards .tracks h2 {
+    margin-top: 30px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+  }
+  main .cards .tracks .cards-track .left {
+    width: 50%;
+    height: 270px;
+    display: inline-block;
+  }
+  main .cards .tracks .cards-track .middle {
+    width: calc(50% - 5px);
+    position: absolute;
+    height: 270px;
+    display: inline-block;
+  }
+  main .cards .tracks .cards-track .right {
+    border: none;
+    width: 100%;
+    border-top: 1px solid white;
+  }
+  main .cards .tracks .cards-track h3 {
+    font-size: 25px;
+  }
+  main .cards .tracks .cards-track aside .trailer {
+    width: 100%;
+  }
+  main .cards .tracks .cards-track aside ul {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  main .last-section {
+    height: 1800px;
+  }
+  main .last-section .head-text {
+    padding-top: 30px;
+  }
+  main .last-section .works-card {
+    width: 49%;
+    display: inline-block;
+  }
+  main .last-section .makeCenter .flex-boxes {
+    display: inline-block;
+  }
+  main .last-section .works-card .container {
+    width: 120px;
+  }
+  main .last-section .works-card .top {
+    margin-top: 30px;
+  }
+  main .last-section .works-card .bottom h2 {
+    font-size: 21px;
+  }
+  main .last-section .makeCenter {
+    margin: auto;
+  }
+  main .last-section .ticket-prices .makeCenter {
+    margin: 50px auto;
+  }
+  main .last-section .makeCenter .flex-boxes {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket .text .texts {
+    width: 32%;
+    display: inline-block;
+  }
+  main .last-section .ticket-prices .ticket .text .texts h3 {
+    font-size: 18px;
+    font-weight: 200;
+  }
+  main .last-section .ticket-prices .makeCenter .ticket .text .makeCenter {
+    margin: auto;
+  }
+  main .last-section .ticket-prices .ticket .text .texts {
+    height: 60px;
+  }
+  main .last-section .ticket-prices .makeCenter .ticket .text .makeCenter h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  main .last-section .ticket-prices .ticket {
+    height: 300px;
+    width: 356px;
+  }
+  main .last-section .ticket-prices .ticket svg {
+    margin-top: 0px;
+    height: 30px;
+    width: 356px;
+  }
+  main .last-section .ticket-prices .ticket svg g {
+    width: 360px;
+  }
+  main .last-section .iceCream .makeCenter {
+    height: 1000px;
+    width: 100%;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream h2 {
+    font-size: 21px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text h1 {
+    font-size: 20px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text button {
+    width: 100%;
+  }
+
+  main .last-section .iceCream .makeCenter .middle img {
+    width: 100px;
+  }
 }
