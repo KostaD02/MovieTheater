@@ -1094,3 +1094,204 @@
     margin-left: 10px;
   }
 }
+@media screen and (max-width: 399px) {
+  header .top .right ul li a {
+    margin-left: 5px;
+  }
+  header .bottom .right ul {
+    padding: 0px;
+  }
+  main .banner-area .text-area h1 {
+    font-size: 30px;
+  }
+  main .banner-area .text-area p {
+    font-size: 15px;
+    width: 240px;
+  }
+  main .banner-area .text-area button {
+    width: 130px;
+  }
+  main .cards .card-area .card #goingDown h3 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  main .cards .card-area .card .bottom #needChange {
+    font-size: 23px;
+    margin-top: 33px;
+  }
+  main .cards .showtime {
+    width: 130px;
+  }
+  main .cards .tracks .cards-track .middle {
+    width: 143px;
+  }
+  main .cards .tracks .cards-track .middle h3 {
+    margin-bottom: 46px;
+  }
+  #goingtopp {
+    font-size: 22px;
+  }
+  #goingtopper {
+    margin-bottom: 18px;
+  }
+  #lowerSize {
+    font-size: 18px;
+  }
+  #needLoowerMargin {
+    margin-bottom: 12px;
+  }
+  main .last-section .ticket-prices .ticket {
+    width: 100%;
+    height: 280px;
+  }
+  main .last-section .ticket-prices .ticket svg {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket .text .texts h2 {
+    font-size: 30px !important;
+  }
+  main .last-section .ticket-prices .ticket .text .texts {
+    height: 50px;
+  }
+  main .last-section .ticket-prices .ticket .text .texts h3 {
+    font-size: 16px;
+  }
+  .myline {
+    margin-bottom: 30px;
+  }
+  main .last-section .ticket-prices .makeCenter .ticket .text .makeCenter {
+    height: 185px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text {
+    width: 100%;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    width: 90px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream h2 {
+    font-size: 19px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text h1 {
+    font-size: 16px;
+  }
+  main .last-section .iceCream .makeCenter .left {
+    width: 80px;
+  }
+  main .last-section .iceCream .makeCenter .middle {
+    width: calc(33% + 5px);
+  }
+  main .last-section .iceCream .makeCenter .right {
+    width: calc(auto - 90px);
+  }
+  main .last-section .iceCream .makeCenter {
+    padding: 3px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text .myline2 {
+    width: 60px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text button {
+    font-size: 13px;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    left: calc(100% - 65%);
+  }
+  footer .goingCenter .top .first {
+    width: 50%;
+    display: inline-block;
+  }
+  footer .goingCenter .top .second {
+    width: 135px;
+  }
+  footer {
+    height: calc(100% + 100px);
+  }
+  footer .goingCenter .bottom {
+    height: auto;
+  }
+  footer .goingCenter .top .forth {
+    margin-top: 40px;
+    width: 50%;
+    float: right;
+  }
+  main .BannerArea {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  main .mainAbout .list .list1 p {
+    font-size: 13px;
+  }
+  main .mainAbout {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  main .mainAbout .list .list1 {
+    height: auto;
+  }
+  main .mainAbout .list .list2 {
+    height: 592px;
+  }
+  main .musicMain .makeCenter .list1 .makeCenters h2 {
+    font-size: 20px;
+  }
+  main .musicMain .makeCenter .list1 .right .makeCenters p {
+    font-size: 16px;
+  }
+  main .musicMain .makeCenter .list1 .left .makeCenters span {
+    font-size: 30px;
+  }
+  main .musicMain {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  main .musicMain .makeCenter .list2 .list-card .name h2 {
+    font-size: 12px;
+  }
+  main .musicMain .makeCenter .list2 .list-card .name p {
+    font-size: 10px;
+  }
+  main .musicMain .makeCenter .list2 .list-card .time span {
+    font-size: 20px;
+  }
+  main .musicMain .makeCenter .list2 .list-card .time .date p {
+    font-size: 8px;
+  }
+  main .musicMain .makeCenter .list2 .list-card {
+    width: 97%;
+  }
+  main .musicMain .makeCenter .list2 .list-card .buyButton {
+    width: 200px;
+  }
+  #smallerFont1,
+  #smallerFont2,
+  #smallerFont3,
+  #smallerFont4,
+  #smallerFont5 {
+    font-size: 10px;
+  }
+  main .snackMain .makeCenter .photoImg img {
+    width: 200px;
+  }
+  main .contactMain {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  main .contactMain .makeCenter .list {
+    height: auto;
+  }
+  main .contactMain .makeCenter .list .right {
+    height: auto;
+  }
+  main .contactMain .makeCenter .list .right span {
+    margin-left: 0px;
+    font-size: 11px;
+  }
+  main .contactMain .makeCenter .list .left form div label {
+    width: auto;
+  }
+  main .contactMain .makeCenter .list .left form .email label {
+    margin-right: 34px;
+  }
+  main .login-page .makeCenter .forms {
+    width: auto;
+  }
+}
