@@ -940,3 +940,157 @@
     left: calc(100% - 80%);
   }
 }
+@media screen and (max-width: 1099px) and (min-width: 701px) {
+  /*Main fix for out of box start*/
+  main .last-section .ticket-prices .ticket {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket .flex-boxes h2 {
+    font-size: 40px !important;
+  }
+  main .last-section .subscribe form {
+    width: 100%;
+  }
+  main .last-section .works-card aside img {
+    width: 100px;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    width: 200px;
+  }
+  main .last-section .works-card .container {
+    width: 100px;
+  }
+  main .mainAbout .photo img {
+    width: 100%;
+  }
+  footer .goingCenter .top .forth .last-top a button {
+    width: 100%;
+  }
+  main .mainAbout .list .list1 {
+    width: 100%;
+  }
+  main .snackMain .makeCenter .photoImg img {
+    width: 100%;
+  }
+  main .contactMain .makeCenter .list .left form div {
+    width: 100%;
+  }
+  main .contactMain .makeCenter .list .right span {
+    margin-left: 0px;
+  }
+  /*Main fix for out of box end*/
+  main .cards .card-area .card .top img {
+    height: 100%;
+  }
+  main .cards .card-area .card {
+    margin-right: 5px;
+  }
+  main .cards .center-button {
+    padding-top: 60px;
+  }
+  main .cards {
+    height: calc(100% - 1100px);
+  }
+  main .cards .tracks .cards-track aside {
+    width: 32%;
+  }
+  main .cards .tracks .cards-track h3 {
+    font-size: calc(20% + 20px);
+  }
+  main .cards .tracks .cards-track .trailer span {
+    font-size: 15px;
+  }
+  main .cards .tracks .cards-track ul {
+    text-align: center;
+  }
+  main .last-section .ticket-prices .ticket svg {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket {
+    width: 100%;
+  }
+  main .last-section .ticket-prices .ticket svg {
+    height: auto;
+  }
+  main .last-section .iceCream .makeCenter aside {
+    width: calc(100% - 70%);
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text button {
+    margin-left: 0px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text h1 {
+    font-size: 30px;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    top: 10px;
+    left: calc(100% - 65%);
+  }
+  main .last-section .iceCream .makeCenter aside {
+    height: auto;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream h2 {
+    padding-top: 40px;
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream .center-text button {
+    margin-bottom: 30px;
+  }
+  main .last-section .subscribe {
+    margin-top: 0px;
+  }
+  main .last-section .iceCream {
+    height: auto;
+  }
+  main .last-section {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  main .cards {
+    padding-bottom: 30px;
+  }
+  footer {
+    height: auto;
+  }
+  footer .goingCenter .top .third p {
+    font-size: 20px;
+  }
+  footer .goingCenter .top .second ul li a {
+    font-size: 20px;
+  }
+  main .mainAbout {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  main .mainAbout .list .list1 {
+    padding: 50px 30px 30px 30px;
+    width: 50%;
+  }
+  main .mainAbout .list .list2 {
+    width: 50%;
+    padding: 50px 30px 30px 30px;
+  }
+  main .mainAbout .list .list1 p {
+    font-size: 15px;
+  }
+  main .mainAbout .photo img {
+    width: calc(100% - 30%);
+  }
+  main .snackMain .makeCenter .photoImg img {
+    width: calc(100% - 30%);
+  }
+  main .snackMain .makeCenter {
+    height: 900px;
+  }
+  main .contactMain {
+    height: calc(100%);
+    padding-bottom: 30px;
+  }
+  main .contactMain .makeCenter .list {
+    height: auto;
+  }
+  main .contactMain .makeCenter .list .right {
+    height: auto;
+  }
+  main .contactMain .makeCenter .list .right span {
+    margin-left: 10px;
+  }
+}
