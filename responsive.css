@@ -52,7 +52,7 @@
   header .top .right ul li a {
     display: flex;
     justify-content: space-between;
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
   header .bottom .left {
     width: 60%;
