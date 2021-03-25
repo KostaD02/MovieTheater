@@ -1294,4 +1294,12 @@
   main .login-page .makeCenter .forms {
     width: auto;
   }
+  main .last-section .subscribe form input::placeholder {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 380px) and (min-width: 322px) {
+  #goingtopp {
+    margin-top: 25px;
+  }
 }
