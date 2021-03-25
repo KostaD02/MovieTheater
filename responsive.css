@@ -1303,3 +1303,15 @@
     margin-top: 25px;
   }
 }
+@media screen and (max-width: 399px) and (min-width: 376px) {
+  #needTofixLastTime {
+    font-size: 22px !important;
+    margin-top: 6px !important;
+  }
+}
+@media screen and (max-width: 362px) and (min-width: 325px) {
+  #lastTimefixingSize {
+    font-size: 28px !important;
+    margin-top: 9px !important;
+  }
+}
