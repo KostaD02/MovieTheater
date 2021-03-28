@@ -1315,3 +1315,17 @@
     margin-top: 9px !important;
   }
 }
+@media screen and (min-width: 1300px) {
+  main .last-section .iceCream .makeCenter aside {
+    text-align: center;
+  }
+  main .last-section .iceCream .makeCenter .middle img {
+    position: relative;
+  }
+  main .last-section .subscribe h2 {
+    padding-top: calc(100% - 90%);
+  }
+  main .last-section .iceCream .makeCenter .cardIcecream h2 {
+    padding-top: 20px;
+  }
+}
