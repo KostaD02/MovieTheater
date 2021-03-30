@@ -1095,11 +1095,15 @@
   }
 }
 @media screen and (max-width: 399px) {
+  header .top .right ul li {
+    padding: 0px 5px;
+  }
   header .top .right ul li a {
-    margin-left: 5px;
+    margin-left: 3px !important;
   }
   header .bottom .right ul {
     padding: 0px;
+    text-align: center !important;
   }
   main .banner-area .text-area h1 {
     font-size: 30px;
