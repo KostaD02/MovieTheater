@@ -939,6 +939,9 @@
   main .snackMain .makeCenter .photoImg {
     left: calc(100% - 80%);
   }
+  main .last-section .subscribe form input {
+    padding-left: 5px;
+  }
 }
 @media screen and (max-width: 1099px) and (min-width: 701px) {
   /*Main fix for out of box start*/

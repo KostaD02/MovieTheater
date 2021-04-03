@@ -535,6 +535,10 @@ main .last-section .subscribe form input {
   border: 1px solid #ff66f5;
   background-color: transparent;
   margin-bottom: 10px;
+  color: #ff66f5;
+  font-size: 30px;
+  padding-left: 20px;
+  text-align: center;
 }
 main .last-section .subscribe form input:hover {
   border: 2px solid white;
